@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="regresar"
+    tools:context=".PantallaEntrPer">
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="454dp"
+        android:layout_height="765dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondo" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="632dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/barra1" />
+
+    <TextView
+        android:id="@+id/ejhoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ejercicio de hoy"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="388dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="632dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView26"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="90dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="110dp"
+        android:onClick="empezar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView34"
+        app:layout_constraintStart_toStartOf="@+id/imageView34"
+        app:srcCompat="@drawable/start" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView39"
+        app:srcCompat="@drawable/regresar" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="391dp"
+        android:layout_height="558dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ejhoy"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="0dp"
+                android:text="Estas listo?"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:text="Tiempo por ejercicio"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="206dp"
+                android:layout_height="224dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/circle_2"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="100"
+                android:progressDrawable="@drawable/circle_1"
+                android:rotation="90"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/TiempoTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/TiempoTemp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="-150dp"
+                android:text="00:00"
+                android:textColor="@color/white"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/TiempoTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="0dp"
+                android:text="00:00:00"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="90dp"
+                android:text="Tiempo de descansos"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <ProgressBar
+                android:id="@+id/progressBar3"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="206dp"
+                android:layout_height="224dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/circle_2"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="100"
+                android:progressDrawable="@drawable/circle_1"
+                android:rotation="90"
+                tools:ignore="MissingConstraints" /><![CDATA[/>
+
+            ]]>
+
+            <TextView
+                android:id="@+id/Total2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/TiempoTemp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="-150dp"
+                android:text="00:00"
+                android:textColor="@color/white"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/Temp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="0dp"
+                android:text="00:00:00"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
