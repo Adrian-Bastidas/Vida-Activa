@@ -1,7 +1,8 @@
 # Vida Activa
+<div style="display:flex">
 <img src='ImagesReadme/ejercicio.png' width='70'>
 <img src='ImagesReadme/GeeckLogo.png' width='100'>
-
+</div>
 In this repository you will find the code of the Active Life App, made for the Geeck Challenge contest.
 
 <img src='ImagesReadme/highlights.png'>
