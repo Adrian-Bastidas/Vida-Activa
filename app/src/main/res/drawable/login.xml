@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- edittext_background.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <solid android:color="#80FFFFFF" /> <!-- Establece el color de fondo con transparencia -->
+        <corners android:radius="8dp" /> <!-- Opcional: establece esquinas redondeadas -->
+    </shape>
+
+</selector>

@@ -15,18 +15,7 @@
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fondo" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="451dp"
-        android:layout_height="742dp"
-        android:layout_marginBottom="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/onda" />
+        app:srcCompat="@drawable/fondobk" />
 
     <Button
         android:id="@+id/aceptar3"
@@ -81,7 +70,7 @@
         android:id="@+id/textView10"
         android:layout_width="315dp"
         android:layout_height="43dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="44dp"
         android:text="Ahora necesito un poco de información para tu rutina en casa"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
@@ -105,7 +94,7 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.076"
         tools:ignore="MissingConstraints" />
 
     <ImageView
