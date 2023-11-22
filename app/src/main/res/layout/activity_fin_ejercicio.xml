@@ -14,18 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fondo" />
-
-    <ImageView
-        android:id="@+id/imageView46"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="632dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/barra1" />
+        app:srcCompat="@drawable/fondoex" />
 
     <TextView
         android:id="@+id/dia6"
@@ -62,7 +51,7 @@
                 android:layout_height="198dp"
                 android:layout_marginStart="-50dp"
                 android:layout_marginTop="-60dp"
-                app:srcCompat="@drawable/menu" />
+                app:srcCompat="@drawable/cardsport" />
 
             <TextView
                 android:id="@+id/dia7"
@@ -167,7 +156,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/menu" />
+        app:srcCompat="@drawable/cardsport" />
 
     <TextView
         android:id="@+id/dia15"

@@ -125,9 +125,11 @@
             <ImageView
                 android:id="@+id/imageView19"
                 android:layout_width="match_parent"
-                android:layout_height="145dp"
-                android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/ciclismom" />
+                android:layout_height="151dp"
+                android:onClick="carrera1"
+                app:srcCompat="@drawable/ciclismom"
+                tools:src="@tools:sample/avatars" />
+
 
         </LinearLayout>
     </ScrollView>

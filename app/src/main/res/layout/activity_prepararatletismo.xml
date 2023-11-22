@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fondo" />
+        app:srcCompat="@drawable/fondoex" />
 
 
     <com.huawei.hms.maps.MapView
@@ -39,8 +39,8 @@
         android:layout_width="0dp"
         android:layout_height="300dp"
         android:layout_marginTop="532dp"
-        android:background="@drawable/barra"
-        android:progressDrawable="@drawable/barra"
+        android:background="@drawable/cardsport"
+        android:progressDrawable="@drawable/cardsport"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

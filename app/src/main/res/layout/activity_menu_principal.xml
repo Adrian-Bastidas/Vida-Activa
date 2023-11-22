@@ -14,29 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fondo" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/menu" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="457dp"
-        android:layout_height="147dp"
-        android:layout_marginBottom="500dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView16"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.13"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/barra1" />
+        app:srcCompat="@drawable/bkg" />
 
     <TextView
         android:id="@+id/textView12"
@@ -54,25 +32,29 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="562dp"
+        android:layout_height="216dp"
+        app:srcCompat="@drawable/cardsport"
+        tools:layout_editor_absoluteX="-95dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <ImageView
         android:id="@+id/imageView20"
         android:layout_width="100dp"
         android:layout_height="43dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="56dp"
         android:onClick="cambio"
-        app:layout_constraintStart_toStartOf="@+id/imageView16"
-        app:layout_constraintTop_toTopOf="@+id/imageView16"
-        app:srcCompat="@drawable/menejercicio" />
+        app:srcCompat="@drawable/menejercicio"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="669dp" />
 
     <ImageView
         android:id="@+id/imageView21"
         android:layout_width="161dp"
         android:layout_height="71dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView16"
-        app:layout_constraintTop_toTopOf="@+id/imageView16"
-        app:srcCompat="@drawable/estadistica" />
+        app:srcCompat="@drawable/estadistica"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="657dp" />
 
     <ScrollView
         android:layout_width="377dp"
@@ -202,9 +184,10 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="12dp"
-                android:background="#1b263a"
+                android:background="#FB7445"
                 android:onClick="aparecer"
                 android:text="Cambiar"
+                android:textColor="#FFFFFF"
                 tools:ignore="MissingConstraints" />
 
             <TextView
@@ -275,9 +258,10 @@
                 android:layout_height="36dp"
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="20dp"
-                android:background="#1b263a"
+                android:background="#FB7445"
                 android:onClick="actu"
                 android:text="Guardar"
+                android:textColor="#FFFFFF"
                 android:visibility="gone"
                 tools:ignore="MissingConstraints"
                 tools:visibility="visible" />
@@ -373,6 +357,7 @@
                 android:layout_marginTop="20dp"
                 android:textAlignment="center"
                 tools:ignore="MissingConstraints" />
+
         </LinearLayout>
     </ScrollView>
 

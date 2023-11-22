@@ -15,28 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fondo" />
-
-    <ImageView
-        android:id="@+id/imageView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="632dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/barra1" />
-
-    <ImageView
-        android:id="@+id/imageView44"
-        android:layout_width="427dp"
-        android:layout_height="563dp"
-        android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tit"
-        app:srcCompat="@drawable/imagenes" />
+        app:srcCompat="@drawable/fondoex" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -44,7 +23,6 @@
         android:layout_width="329dp"
         android:layout_height="313dp"
         android:layout_centerInParent="true"
-        android:layout_marginTop="128dp"
         android:background="@drawable/circle_2"
         android:indeterminate="false"
         android:max="100"
@@ -53,8 +31,8 @@
         android:rotation="90"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView42"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="227dp" />
 
     <TextView
         android:id="@+id/TiempoTemp"
@@ -107,15 +85,14 @@
         android:id="@+id/tit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:text="Primera Ronda"
         android:textColor="@android:color/white"
         android:textSize="34sp"
         android:textStyle="normal|bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView42"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="15dp" />
 
     <com.huawei.hms.ads.banner.BannerView
         android:id="@+id/hw_banner_view"
