@@ -82,6 +82,10 @@ public class Personal extends AppCompatActivity {
         Intent siguiente = new Intent(this, PantallaEntrPer.class);
         startActivity(siguiente);
     }
+    public void social(View ver) {
+        Intent siguiente = new Intent(this, social.class);
+        startActivity(siguiente);
+    }
     public void carrera1(View ver){
         if(ActivityCompat.checkSelfPermission(this, ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
                 || ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED){

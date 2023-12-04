@@ -39,6 +39,18 @@
         app:srcCompat="@drawable/cardsport" />
 
     <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="social"
+        android:src="@drawable/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+
+    <ImageView
         android:id="@+id/imageView25"
         android:layout_width="161dp"
         android:layout_height="71dp"
@@ -80,7 +92,7 @@
         android:id="@+id/scrollView2"
         android:layout_width="345dp"
         android:layout_height="549dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView29"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="@+id/imageView29"

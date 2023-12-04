@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".social">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="412dp"
+        android:layout_height="741dp"
+        android:src="@drawable/bkg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/anterior2"
+        android:layout_width="52dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:onClick="cambiar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/regresar"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Otros Atletas"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="397dp"
+        android:layout_height="653dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:layout_marginTop="32dp"
+            app:srcCompat="@drawable/ata"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/enterper"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            app:srcCompat="@drawable/atb"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            app:srcCompat="@drawable/atc"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            app:srcCompat="@drawable/atd"
+            tools:src="@tools:sample/avatars" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
